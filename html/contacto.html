@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../css/stylesheet.css">
+</head>
+
+<body>
+    <!--Nav-->
+    <header>
+        <div>
+            <nav><strong><a href="../index.html"> Página principal</a><a href="#">Sobre mí</a> <a
+                        href="#">Proyectos</a><a href="#">Habilidades</a> <a
+                        href="./contacto.html">Contacto</a></strong></nav>
+        </div>
+    </header>
+    <main>
+
+        <!--Formulario-->
+        <form>
+            <label>
+                Nombre<br><input type="text" name="nombre" required>
+            </label>
+            <label>
+                Correo electrónico<br><input type="email" name="correo" required>
+            </label><br>
+            <label>
+                Teléfono<br><input type="tel" name="telefono" maxlength="9" required>
+            </label><br>
+            <label>
+                <input type="radio" name="genero" value="M"> Masculino <br>
+
+            </label>
+            <label>
+                <input type="radio" name="genero" value="F"> Femenino
+            </label>
+
+            <label class="textarea">
+                Comentario:<br><textarea name="comentarios" rows="10" cols="60"></textarea>
+            </label><br>
+            <label>
+                Acepto el envio del formulario: <input type="checkbox" name="acepto_terminos" required><br>
+            </label>
+            <label>
+                <input class="button" type="submit" value="Enviar"> </label><label><br>
+                <input class="button" type="reset" value="Restablecer"></label>
+
+
+        </form>
+    </main>
+    <!--Footer-->
+    <footer>
+        <p>Samuel Sánchez Díaz</p>
+        <div><a href="https://www.instagram.com/"><img src="../imagenes/instagram.svg" alt="instagram"></a> <a
+                href="https://www.facebook.com/?locale=es_ES"><img src="../imagenes/facebook.svg" alt="facebook"></a> <a
+                href="https://github.com/"><img src="../imagenes/github.svg" alt="github"></a> <a
+                href="https://es.linkedin.com/"><img src="../imagenes/linkedin.svg" alt="linkedin"></a> <a
+                href="https://linuxmint.com/"><img src="../imagenes/tux.svg" alt="linux"></a></div>
+
+        <div><a href="#nav"><img src="../imagenes/flecha.png" height="16" width="16" alt="flecha"></a></div>
+    </footer>
+</body>
+
+</html>
